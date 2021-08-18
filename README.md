@@ -40,7 +40,7 @@ And build your solution
 ## If you want single exe file without dll use https://github.com/mkaring/ConfuserEx/releases
 ## Screenshot:
 
-![GrowtopiaStealerV5](https://user-images.githubusercontent.com/65458800/129814994-d1f18346-bdb9-462e-a1e2-4e3919d34e19.png)
+![GrowtopiaStealerV5 no terraria](https://user-images.githubusercontent.com/65458800/129893233-63330bf6-724c-48ee-9d0a-c2b91ca52366.png)
 
 ## ToDo
 - Decode password from save.dat
