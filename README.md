@@ -44,3 +44,4 @@ And build your solution
 
 ## ToDo
 - Decode password from save.dat
+- Delete terraria steal method and make diffrent for only terraria
