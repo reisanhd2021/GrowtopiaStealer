@@ -25,7 +25,7 @@ Other Version that stealer: https://github.com/DedSec77/CyberStealer
 
 - Steal Discord Tokens from Discord App, DiscordCanary App, DiscordPTB App, Chrome Browser, Chrome Beta Browser,FireFox Browser, Opera Browser, OperaGX Browser, Edge Browser, Yandex Browser, Brave Browser,Vivaldi Browser, Epic Privacy Browser, 360Browser, CocCoc Browser.
 - Steal Growtopia save.dat
-- Show GrowID
+- Show GrowID and Password | thx Zenixas
 - Show Last World
 - Steal Terraria files input profiles.json, achievements.dat, servers.dat, condig.json.
 - Show Screenshot
@@ -43,4 +43,4 @@ And build your solution
 ![GrowtopiaStealerV5 no terraria](https://user-images.githubusercontent.com/65458800/129893233-63330bf6-724c-48ee-9d0a-c2b91ca52366.png)
 
 ## ToDo
-- Decode password from save.dat
+- idk suggests smth
