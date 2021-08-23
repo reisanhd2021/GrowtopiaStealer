@@ -1,5 +1,5 @@
 # GrowtopiaStealer
-![GrowtopiaStealer Github](https://user-images.githubusercontent.com/65458800/130508767-a869f952-94d8-49ba-a98c-e69832f4519c.gif)
+![GrowtopiaStealer Github](https://user-images.githubusercontent.com/65458800/130508935-e383344e-cae2-42fa-9489-f6528a14ca08.gif)
 <br/>
 GrowtopiaStealer powerful stealer written in C#.
 <br/>
