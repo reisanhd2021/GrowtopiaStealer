@@ -1,4 +1,6 @@
 # GrowtopiaStealer
+![GrowtopiaStealer Github](https://user-images.githubusercontent.com/65458800/130508673-2be4375d-9a63-4252-ba03-b8cc5a25bba1.gif)
+<br/>
 GrowtopiaStealer powerful stealer written in C#.
 <br/>
 Other Version that stealer: https://github.com/DedSec77/CyberStealer
