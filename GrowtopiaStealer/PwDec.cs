@@ -110,9 +110,11 @@ public class pwDec
 		return list.ToArray();
 	}
 
+	private static string OtherCharacters = "~`!@#$%^&*()_+-=";
+	
 	private bool ValidateChar(char cdzdshr)
 	{
-		if ((cdzdshr >= '0' && cdzdshr <= '9') || (cdzdshr >= 'A' && cdzdshr <= 'Z') || (cdzdshr >= 'a' && cdzdshr <= 'z') || (cdzdshr >= '+' && cdzdshr <= '.'))
+		if ((cdzdshr >= '0' && cdzdshr <= '9') || (cdzdshr >= 'A' && cdzdshr <= 'Z') || (cdzdshr >= 'a' && cdzdshr <= 'z') || (cdzdshr >= '+' && cdzdshr <= '.') || OtherCharacters.Contains(cdzdshr.ToString()))
 		{
 			return true;
 		}
