@@ -48,7 +48,7 @@ And build your solution
 ## If you want single exe file without dll use https://github.com/mkaring/ConfuserEx/releases
 ## Screenshot:
 
-![GrowtopiaStealerV5 no terraria](https://user-images.githubusercontent.com/65458800/129893233-63330bf6-724c-48ee-9d0a-c2b91ca52366.png)
+![GrowtopiaStealer done](https://user-images.githubusercontent.com/65458800/130509879-2558e60a-f980-47f1-b432-0c3267c9fa42.png)
 
 ## ToDo
 - idk suggests smth
