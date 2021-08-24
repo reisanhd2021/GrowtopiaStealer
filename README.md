@@ -35,7 +35,6 @@ Please do not use the program maliciously. This program is intended to be used f
 - Steal Growtopia save.dat
 - Show GrowID and Password | thx [Zenixas](https://github.com/Zenixas)
 - Show Last World
-- Steal Terraria files input profiles.json, achievements.dat, servers.dat, condig.json.
 - Show Screenshot
 ## Setup:
 
